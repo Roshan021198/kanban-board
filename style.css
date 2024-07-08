@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.toolbox-cont{
+    width: 100%;
+    height: 6rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-priority-cont{
+    width: 20rem;
+    height: 3rem;
+    background-color: white;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.color{
+    width: 3rem;
+    height: 1.5rem;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.black{
+    background-color: black;
+}
+
+.action-btn-container{
+    width: 10rem;
+    height: 3rem;
+    background-color: white;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.add-btn{
+    font-size: 1.5rem;
+
+}
+
+.remove-btn{
+    font-size: 1.5rem;
+
+}
+
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.ticket-cont{
+    width: 15rem;
+    height: 10rem;
+    background-color: bisque;
+    position: relative;
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.task-area{
+    height: 7.5rem;
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.lock-unlock{
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.modal-cont{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+    background-color: aqua;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.textarea-cont{
+    width: 80%;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 5%;
+    font-size: 2rem;
+    border-right: 1px solid black;
+    /* background-color: red; */
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 20%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priority-color{
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.active{
+    border: 3px solid yellow;
+}
